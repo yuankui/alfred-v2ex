@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C72A45A0-6E68-47A3-8868-22E764C9551B</string>
+				<string>46890127-446A-4B35-A80C-4E1A529F1FC0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -67,9 +67,9 @@
 				<key>runningsubtext</key>
 				<string>please wait text</string>
 				<key>script</key>
-				<string>python main.py</string>
+				<string>python main.py {query}</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -87,27 +87,6 @@
 			<string>5B723CE4-B94E-4E9A-A002-AB8EBBB6898F</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>this {query}</string>
-				<key>title</key>
-				<string>some {query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>C72A45A0-6E68-47A3-8868-22E764C9551B</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -136,29 +115,48 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>46890127-446A-4B35-A80C-4E1A529F1FC0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>to do....</string>
 	<key>uidata</key>
 	<dict>
+		<key>46890127-446A-4B35-A80C-4E1A529F1FC0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
 		<key>5B723CE4-B94E-4E9A-A002-AB8EBBB6898F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>310</integer>
+			<integer>290</integer>
 			<key>ypos</key>
-			<integer>70</integer>
+			<integer>60</integer>
 		</dict>
 		<key>7F6A7F3C-A93C-4CAC-9BE0-00E6CC52993E</key>
 		<dict>
 			<key>xpos</key>
 			<integer>140</integer>
-			<key>ypos</key>
-			<integer>70</integer>
-		</dict>
-		<key>C72A45A0-6E68-47A3-8868-22E764C9551B</key>
-		<dict>
-			<key>xpos</key>
-			<integer>480</integer>
 			<key>ypos</key>
 			<integer>70</integer>
 		</dict>
