@@ -73,9 +73,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>place holder subtext</string>
+				<string>hot: 获取热门文章</string>
 				<key>title</key>
-				<string>vvvv place holder</string>
+				<string>v2ex</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
