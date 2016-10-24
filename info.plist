@@ -48,49 +48,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>keyword</key>
-				<string>vvv</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>please wait text</string>
-				<key>script</key>
-				<string>python main.py {query}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>hot: 获取热门文章</string>
-				<key>title</key>
-				<string>v2ex</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>5B723CE4-B94E-4E9A-A002-AB8EBBB6898F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -134,6 +91,49 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>vvv</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>please wait text</string>
+				<key>script</key>
+				<string>python main.py {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>hot: 获取热门文章</string>
+				<key>title</key>
+				<string>v2ex</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5B723CE4-B94E-4E9A-A002-AB8EBBB6898F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>to do....</string>
@@ -142,23 +142,23 @@
 		<key>46890127-446A-4B35-A80C-4E1A529F1FC0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>520</integer>
+			<integer>610</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>200</integer>
 		</dict>
 		<key>5B723CE4-B94E-4E9A-A002-AB8EBBB6898F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>290</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>220</integer>
 		</dict>
 		<key>7F6A7F3C-A93C-4CAC-9BE0-00E6CC52993E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>140</integer>
+			<integer>100</integer>
 			<key>ypos</key>
-			<integer>70</integer>
+			<integer>190</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
